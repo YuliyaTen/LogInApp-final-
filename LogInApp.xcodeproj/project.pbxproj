@@ -14,6 +14,7 @@
 		DA4FC82A2875D8B8009C4271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4FC8292875D8B8009C4271 /* Assets.xcassets */; };
 		DA4FC82D2875D8B8009C4271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FC82B2875D8B8009C4271 /* LaunchScreen.storyboard */; };
 		DA4FC8352875DBE2009C4271 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FC8342875DBE2009C4271 /* WelcomeViewController.swift */; };
+		DAB4735428762C3400A67CE5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4735328762C3400A67CE5 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DA4FC82C2875D8B8009C4271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4FC82E2875D8B8009C4271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4FC8342875DBE2009C4271 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DAB4735328762C3400A67CE5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,15 @@
 		DA4FC81F2875D8B6009C4271 /* LogInApp */ = {
 			isa = PBXGroup;
 			children = (
-				DA4FC8202875D8B6009C4271 /* AppDelegate.swift */,
-				DA4FC8222875D8B6009C4271 /* SceneDelegate.swift */,
 				DA4FC8242875D8B6009C4271 /* LogInViewController.swift */,
 				DA4FC8342875DBE2009C4271 /* WelcomeViewController.swift */,
+				DAB4735328762C3400A67CE5 /* Data.swift */,
 				DA4FC8262875D8B6009C4271 /* Main.storyboard */,
-				DA4FC8292875D8B8009C4271 /* Assets.xcassets */,
 				DA4FC82B2875D8B8009C4271 /* LaunchScreen.storyboard */,
+				DA4FC8202875D8B6009C4271 /* AppDelegate.swift */,
+				DA4FC8222875D8B6009C4271 /* SceneDelegate.swift */,
 				DA4FC82E2875D8B8009C4271 /* Info.plist */,
+				DA4FC8292875D8B8009C4271 /* Assets.xcassets */,
 			);
 			path = LogInApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4FC8252875D8B6009C4271 /* LogInViewController.swift in Sources */,
+				DAB4735428762C3400A67CE5 /* Data.swift in Sources */,
 				DA4FC8352875DBE2009C4271 /* WelcomeViewController.swift in Sources */,
 				DA4FC8212875D8B6009C4271 /* AppDelegate.swift in Sources */,
 				DA4FC8232875D8B6009C4271 /* SceneDelegate.swift in Sources */,
